@@ -1,0 +1,198 @@
+body {
+	width: 980px;
+	padding: 0 44px;
+}
+.clearfix:before,
+.clearfix:after {
+	content:"";
+	display: block;
+}
+.clearfix:after {
+	clear: both;
+	overflow: hidden;
+}
+.clearfix {
+	zoom: 1;
+}
+header {
+	font-size: 12px;
+	font-family: "黑体";
+}
+#header-left {
+	width: 110px;
+	height: 61px;
+	float: left;
+	background-color:#d45d5c;
+}
+#header-left p {
+	margin-top:37px;
+	color: #ffffff;
+}
+#header-line {
+	height: 2px;
+	border:0;
+	color: #938e8c;
+	background-color:#938e8c;
+}
+#header-right {
+	float: right;
+	color: #d45d5c;
+	margin-top:37px;
+}
+
+#title-line {
+	/*width: 203px;*/
+	height: 2px;
+	border:0;
+	color: #cc8091;
+	background-color: #cc8091;
+}
+.first-part {
+	margin-top: 35px;
+}
+.title {
+	height: 301px;
+}
+.title h3 {
+	font-family: "Microsoft YaHei";
+	line-height: 40px;
+	font-size: 24px;
+	font-weight: normal;;
+	text-decoration: underline;
+}
+.title h3 b {
+	font-size: 28px;
+}
+#msg {
+	font-family: "楷体";
+	font-size: 12px;
+	color: #676767;
+	line-height: 10px;
+}
+#tips-one {
+	font-family: "Microsoft YaHei";
+	font-size: 116px;
+	line-height: 116px;
+	padding-top: 15px;
+	font-style: oblique;
+	text-align: left;
+	text-indent: -18px;
+	color: #75b86d;
+}
+#tips-two {
+	font-family: "Microsoft YaHei";
+}
+#tips-two-first {
+	font-size: 55px;
+	font-weight: 400;
+	color:#cc8091;
+}
+#tips-two-second {
+	font-size: 21px;
+	font-weight: 400;
+	margin-top: 15px;
+	margin-left: 5px;
+	display: inline-block;
+	color:#cc8091;
+}
+.tips-two-right {
+	/*padding-top: 20px;
+	padding-left: 5px;*/
+}
+.art-list {
+	margin-top: 40px;
+}
+#tips-two-third {
+	font-size: 12px;
+	color:#676767;
+	margin-left: 5px;
+}
+#first-article {
+	width: 230px;
+	
+}
+#second-article {
+	width: 210px;
+}
+#third-article {
+	width: 135px;
+}
+.art-list li {
+	float: left;
+	margin-right: 25px;
+}
+.art-list li h3 {
+	font-family: "Microsoft YaHei";
+	font-size: 16px;
+	text-decoration: underline;
+	font-weight: bold;
+	padding-bottom: 10px;
+}
+#first-article-title {
+	color: #418c59;
+}
+#second-article-title {
+	color: #d2994f;
+}
+#third-article-title {
+	color: #cc7680;
+}
+li p {
+	font-family: "宋体";
+	font-size: 12px;
+	line-height: 16px;
+}
+#first-article-content {
+	color: #767777;
+}
+#second-article-content {
+	color: #231815;
+	font-family: "Microsoft YaHei";
+	opacity: 0.7;
+}
+
+#third-article > p {
+	font-family: "Microsoft YaHei";
+}
+#third-article-content {
+	font-family: "宋体";
+	opacity: 0.7;
+	line-height: 20px;
+}
+#third-article p b {
+	color: #cd4a48;
+	opacity: 0.7;
+	font-style: italic;
+}
+.second-part {
+	margin-top: 70px
+}
+#second-part-title {
+	font-size: 42px;
+	color: #11456b;
+	/*line-height: 16px;*/
+	font-family: "黑体";
+	font-weight: bold;
+}
+#second-part-title > b {
+	font-style: italic;
+	font-size: 72px;
+	color: #f5e327;
+}
+#second-part-title-line {
+	color: #11456b;
+	background-color: #11456b;
+	height: 2px;
+	width: 415px;
+}
+#second-part-content {
+	margin-top: 10px;
+	width: 415px;
+	float: left;
+}
+#second-part-content > b {
+	font-size: 70px;
+	color: #f5e327;
+	font-family: "Microsoft YaHei";
+	font-weight: normal;
+}

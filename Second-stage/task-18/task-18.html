@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Task-18</title>
+</head>
+<style>
+	* {
+		margin: 0;
+		padding: 0;
+	}
+	button {
+		width: 100px;
+		height: 30px;
+		line-height: 30px;
+		border: 2px solid #eee;
+		border-radius: 3px;
+		background-color: #fff;
+	}
+	li {
+		width: 50px;
+		height: 50px;
+		color: #fff;
+		background-color: #4a90e2;
+		line-height: 50px;
+		font-size: 20px;
+		float: left;
+		margin-right: 10px;
+		text-align: center;
+	}
+	#number-list {
+		list-style-type: none;
+		margin-top: 50px;
+		margin-left: 50px;
+	}
+	#arr-area span {
+		display: inline-block;
+		width: 50px;
+		height: 50px;
+		line-height: 50px;
+		text-align: center;
+		background-color: #4a90e2;
+		color: #fff;
+		margin: 10px;
+		cursor: pointer;
+	}
+	#result div {
+		margin: 10px;
+		padding: 5px;
+		background-color: #4a90e2;
+		text-align: center;
+		float: left;
+	}
+	#container div {
+		display: inline-block;
+		font-size: 30px;
+		text-align: center;
+		padding: 0 5px;
+		margin: 5px 0;
+		margin-right: 10px;
+		width: 50px;
+		height: 50px;
+		line-height: 50px;
+		background-color: #4a90e2;
+		color: #fff;
+	}
+</style>
+<body>
+	<div style="margin-top: 50px;margin-left: 50px;">
+	<!-- task-18-1 -->
+	<input type="text" id="num-input" style="width:300px; height: 50px;">
+	<!-- task-18-2 -->
+		<!-- <input type="text" id="new-number" style="width:300px; height: 50px;"> -->
+		<!-- <input id="number-input" type="text" style="width:300px; height: 50px;"> -->
+
+		<button id="left-in">左侧入</button>
+		<button id="left-out" style="margin-right: 20px;">左侧出</button>
+		<button id="right-in">右侧入</button>
+		<button id="right-out">右侧出</button>
+	</div>
+	<!-- <ul id="number-list">
+	</ul> -->
+	<!-- task-18-1 -->
+	<div id="container"></div>
+	<!-- task-18-3 -->
+	<!--task-18-2-->
+	<div id="arr-area"></div>
+	<div id="result">
+		
+	</div>
+
+	<!-- <script src="./task-18.js"></script> -->
+	<script src="./task-18-1.js"></script>
+	<!-- <script src="./task-18-2.js"></script> -->
+	<!-- <script src="./task-18-3.js"></script> -->
+</body>
+</html>

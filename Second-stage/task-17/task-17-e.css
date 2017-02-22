@@ -1,0 +1,27 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+fieldset {
+	margin: 5px;
+	padding: 5px;
+}
+.aqi-chart-wrap {
+	display: flex;
+	width: 90%;
+	/*height: 55%;*/
+	justify-content: center;
+	align-items: flex-end;
+	align-content: center;
+	position: absolute;
+	bottom: 0;
+	left: 5%;
+	box-sizing: border-box;
+	margin: 5px auto;
+	padding: 10px;
+	border: 2px solid #eee;
+}
+.aqi-chart-wrap div {
+	border: 1px solid #eee;
+	flex: 1;
+}

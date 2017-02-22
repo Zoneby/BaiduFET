@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Task 13</title>
+</head>
+<style>
+	* {
+		margin: 0;
+		padding: 0;
+	}
+	html, body {
+		font-family: "Microsoft Yahei";
+		background-color: #efefef;
+	}
+	body {
+		margin: 100px auto;
+	}
+	.container {
+		width: 50%;
+		margin: 0 auto;
+		text-align: center;
+	}
+	label {
+		font-size: 26px;
+	}
+	label > input {
+		height: 25px;
+		border: 2px solid #aaaaff;
+		border-radius: 5px;
+		/*margin-top: -4px;*/
+		margin-right: 50px;
+	}
+	#button {
+		width: 80px;
+		height: 30px;
+		border: 1px solid #aaa;
+		border-radius: 4px;
+		background-color: #e2f3f3;
+		color: #333;
+	}
+	.input-callback {
+		margin-top: 50px;
+		font-size: 18px;
+	}
+</style>
+<body>
+	<div class="container">
+		<label>你今天的心情是：<input id="mood-input" type="text" value="pleasure"></label>
+		<button id="button" onclick="displayInput()">确认填写</button>
+
+		<div class="input-callback">你的输入值是：<span id="mood-display">尚未输入</span></div>
+	</div>
+<script>
+	function displayInput() {
+		document.getElementById('mood-display').innerHTML = document.getElementById('mood-input').value;
+	}
+
+	/*(function() {
+		var $ = function (id) {
+			return document.getElementById(id);
+		}
+		var handler = function () {
+			var num = parseInt($("aqi-input").value);
+			if((!isNaN))
+		}
+	}();*/
+</script>
+</body>
+</html>

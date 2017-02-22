@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Task-19</title>
+</head>
+<style>
+	* {
+		margin: 0;
+		padding: 0;
+	}
+	button {
+		width: 100px;
+		height: 30px;
+		line-height: 30px;
+		border: 2px solid #eee;
+		border-radius: 3px;
+		background-color: #fff;
+	}
+	#container {
+		display: flex;
+		justify-content: center;
+		align-items: flex-end;
+		align-content:center;
+		padding: 10px;
+		border: 2px solid #eee;
+	}
+	#container div {
+		border: 1px solid #eee;
+		flex: 1;
+		width: 35px;
+		font-size: 26px;
+		text-align: center;
+		background-color: #4a90e2;
+		color: #fff;
+	}
+	/* #container div {
+		display: inline-block;
+		font-size: 30px;
+		text-align: center;
+		padding: 0 5px;
+		margin: 5px 0;
+		margin-right: 10px;
+		height: 50px;
+		line-height: 50px;
+		background-color: #4a90e2;
+		color: #fff;
+	} */
+	ul {
+		margin-top: 10px;
+		vertical-align: bottom;
+	}
+	li {
+		display: inline-block;
+		margin-left: 5px;
+		width: 15px;
+		background-color: #e21519;
+		color: #ffffff;
+		list-style-type: none;
+	}
+
+	#result {
+		display: flex;
+		height: 505px;
+		align-items: flex-end;
+	}
+	#result div {
+		margin: 3px;
+		width: 15px;
+		transition: height 500ms;  
+	}
+	.red {
+		background-color: red;
+	}
+	.blue {
+		background-color: blue;
+	}
+	.green {
+		background-color: green;
+	}
+</style>
+<body>
+	
+	<!-- <div style="margin-top: 50px; margin-left: 50px;">
+		<input type="text" id="num-input" style="width: 300px; height: 50px;">
+	
+	
+		<button id="left-in">左侧入</button>
+		<button id="left-out">左侧出</button>
+		<button id="right-in">右侧入</button>
+		<button id="right-out">右侧出</button>
+		<button id="sort">排序</button>
+	</div>
+	
+	<div class="container">
+		
+	</div> --> 
+
+	<!-- task-19-1.html -->
+	<!-- <input type="text">
+	<button>左侧入</button>
+	<button>右侧入</button>
+	<button>左侧出</button>
+	<button>右侧出</button>
+	<button>打乱</button>
+	<button>冒泡</button>
+	<button>选择</button>
+	<button>插入</button>
+	
+	<ul></ul> -->
+	<!-- task-19-2.html -->
+	<div>
+		<input type="text"/>
+		<button id="left-in">左侧入</button>
+		<button id="right-in">右侧入</button>
+
+		<button id="left-out">左侧出</button>
+		<button id="right-out">右侧出</button>
+		<button id="sort">排序</button>
+		<button id="random">随机</button>
+		interval(ms):<input id="renderInterval" value="150">
+	</div>
+
+	<div id="result">
+		
+	</div>
+	<!-- <script src="./task-19.js"></script> -->
+	<script src="./util.js"></script>
+	<script src="./task-19-1.js"></script>
+</body>
+</html> 
